@@ -3,9 +3,15 @@ import React from 'react';
 
 function Buttons() {
     return (
-      <div className="container">
-
-<div class="row  ">
+      <div>
+ 
+ <div class="container-fluid border ">
+ <div class="p-3 mb-4 bg-light text-dark border border-dark m-4 ">
+       <h2>
+       Buttons
+       </h2>
+        </div>
+<div class="row m-4">
 
     <div class="col-sm border border-dark border-right-0 "><br />
     <button type="button" class="btn btn-primary">Primary</button><br /><br />
@@ -31,50 +37,9 @@ function Buttons() {
 </div> 
 <br />
 
-<div class="row">
-    <div class="col-sm-12 border border-primary">col-sm-12</div>
-</div><br />
-
-
-
-
-  <div class="row">
-    <div class="col-sm-8 border border-danger">col-sm-8</div>
-    <div class="col-sm-2 border border-danger">col-sm-2</div>
-    <div class="col-sm-2 border border-danger">col-sm-2</div>
-    </div><br />
-
-    <div class="row">
-    <div class="col-sm-3 border border-danger">col-sm-3</div>
-    <div class="col-sm-3 border border-danger">col-sm-3</div>
-    <div class="col-sm-3 border border-danger">col-sm-3</div>
-    <div class="col-sm-3 border border-danger">col-sm-3</div>
-    </div><br />
-
-    <div class="row">
-    <div class="col-sm-6 border border-info">col-sm-6</div>
-    <div class="col-sm-6 border border-info">col-sm-6</div>
-    
-  </div><br />
-  <div class="row">
-    <div class="col-sm border border-primary">col-sm</div>
-    <div class="col-sm border border-primary">col-sm</div>
-    <div class="col-sm border border-primary">col-sm</div>
-    <div class="col-sm border border-primary">col-sm</div>
-    <div class="col-sm border border-primary">col-sm</div>
-    <div class="col-sm border border-primary">col-sm</div>
-    <div class="col-sm border border-primary">col-sm</div>
-    <div class="col-sm border border-primary">col-sm</div>
-    <div class="col-sm border border-primary">col-sm</div>
-    <div class="col-sm border border-primary">col-sm</div>
-    <div class="col-sm border border-primary">col-sm</div>
-    <div class="col-sm border border-primary">col-sm</div>
   </div>
-
-  <br />
-        
       </div>
     );
   }
   
-  export default Buttons;
+export default Buttons;
