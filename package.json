@@ -4,7 +4,11 @@
   "main": "index.js",
   "scripts": {
     "test": "node index.js",
+<<<<<<< HEAD
 "start": "node index"
+=======
+    "start" : "node index"
+>>>>>>> 9f078dadf7670288b3c30b3e39dc7b33f783e524
   },
   "author": "Bharath-pg",
   "license": "ISC",
